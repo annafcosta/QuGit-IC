@@ -17,6 +17,12 @@ Para isto, está sendo utilizado a biblioteca **Quantum Gaussian Information Too
 <!-- Seu conteúdo para Autores -->
 </div>
 
+🔵 [Colabaradores](#colab-4)
+
+<div id="colab-4">
+<!-- Seu conteúdo para Autores -->
+</div>
+
 ### 🔵 Fidelidade Quântica
 
 
