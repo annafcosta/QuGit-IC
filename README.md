@@ -30,9 +30,9 @@ Para isto, está sendo utilizado a biblioteca **Quantum Gaussian Information Too
 
 Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
 
-### 🔵 Colabaradores 
+#### 🔵 Colabaradores 
 
-Leonardo Antônio Mendes de Souza. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
+Leonardo Antônio Mendes de Souza - Orientador. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
 
 
 
