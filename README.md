@@ -23,6 +23,12 @@ Para isto, está sendo utilizado a biblioteca **Quantum Gaussian Information Too
 <!-- Seu conteúdo para Autores -->
 </div>
 
+⚪ [Autor](#autor-5)
+
+<div id="autor-5">
+<!-- Seu conteúdo para Autores -->
+</div>
+
 ### 🔵 Fidelidade Quântica
 
 
@@ -34,5 +40,8 @@ Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/
 
 Leonardo Antônio Mendes de Souza - Orientador. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
 
+#### ⚪ Autor
+
+Anna Luísa Ferreira. [[annafcosta]](https://github.com/annafcosta).
 
 
