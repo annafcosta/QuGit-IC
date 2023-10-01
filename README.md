@@ -33,14 +33,16 @@ Para isto, está sendo utilizado a biblioteca **Quantum Gaussian Information Too
 
 
 #### ⚪ Citações
-
+___
 Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
 
 #### 🔵 Colabaradores 
+___
 
 Leonardo Antônio Mendes de Souza - Orientador. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
 
 #### ⚪ Autor
+___
 
 Anna Luísa Ferreira. [[annafcosta]](https://github.com/annafcosta).
 
