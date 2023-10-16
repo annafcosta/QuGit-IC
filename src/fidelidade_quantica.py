@@ -2,8 +2,8 @@ import numpy as np
 import quantum_gaussian_toolbox as qgt
 
 # Verificar se a matriz resultante é não negativa definida (σ >= 0):
-def check_condition(matrix):
-    eigenvalues = np.linalg.eigvalsh(matrix) # Calcular os autovalores de uma matriz simétrica
+def check_condition(matriz):
+    eigenvalues = np.linalg.eigvalsh(matriz) # Calcular os autovalores de uma matriz simétrica
     return all(eig >= 0 for eig in eigenvalues) # Verificar se todos os autovalores são não negativos
 
 # Exemplo de uso:
