@@ -1,0 +1,53 @@
+# QuGit-Iniciação-Científica
+
+O projeto em questão, originou-se como uma proposta de relacionar conteúdos da computação e mecânica quântica, sendo coordenada pelo professor Leonardo Antônio Mendes de Souza. Os estudos acerca do tema, possuem o intuito de desenvolver algoritmos que trabalhem, essencialmente, na simulação da classe especial de *estados quânticos gaussianos de variáveis ​​contínuas*. 
+Para isto, está sendo utilizado a biblioteca **Quantum Gaussian Information Toolbox**, ou QuGIT (uma caixa de ferramentas numérica em python para aplicações de informação quântica gaussiana). 
+
+___
+
+**TAREFAS EM DESENVOLVIMENTO**
+
+🔵 [Fidelidade Quântica](#Objetivos-1)
+
+<div id="Objetivos-1">
+<!-- Seu conteúdo para a Objetivos -->
+</div>
+
+⚪ [Citações](#autores-3)
+
+<div id="autores-3">
+<!-- Seu conteúdo para Autores -->
+</div>
+
+🔵 [Colabaradores](#colab-4)
+
+<div id="colab-4">
+<!-- Seu conteúdo para Autores -->
+</div>
+
+⚪ [Autor](#autor-5)
+
+<div id="autor-5">
+<!-- Seu conteúdo para Autores -->
+</div>
+
+___
+
+### 🔵 Fidelidade Quântica
+___
+
+
+#### ⚪ Citações
+
+Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
+
+#### 🔵 Colabaradores 
+
+Leonardo Antônio Mendes de Souza - Orientador. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
+
+#### ⚪ Autor
+
+
+Anna Luísa Ferreira. [[annafcosta]](https://github.com/annafcosta).
+
+
