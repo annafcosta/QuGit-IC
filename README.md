@@ -1,8 +1,6 @@
 # QuGit-Iniciação-Científica
 
-O projeto em questão, originou-se como uma proposta de relacionar conteúdos da computação e mecânica quântica, sendo coordenada pelo professor Leonardo Antônio Mendes de Souza. Os estudos acerca do tema, possuem o intuito de desenvolver algoritmos que trabalhem, essencialmente, na simulação da classe especial de *estados quânticos gaussianos de variáveis ​​contínuas*. 
-Para isto, está sendo utilizado a biblioteca **Quantum Gaussian Information Toolbox**, ou QuGIT (uma caixa de ferramentas numérica em python para aplicações de informação quântica gaussiana). 
-
+O projeto em questão surgiu como uma iniciativa para explorar a interseção entre a computação e a mecânica quântica, sob a coordenação do professor Leonardo Antônio Mendes de Souza. Os estudos nesse domínio visam o desenvolvimento de algoritmos voltados principalmente para a simulação de uma classe especial de *estados quânticos gaussianos de variáveis contínuas*. Para alcançar esse objetivo, estamos utilizando a biblioteca **Quantum Gaussian Information Toolbox**, ou QuGIT, uma caixa de ferramentas numérica em Python dedicada a aplicações de informação quântica gaussiana.
 ___
 
 **TAREFAS EM DESENVOLVIMENTO**
