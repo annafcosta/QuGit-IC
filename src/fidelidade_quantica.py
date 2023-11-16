@@ -20,13 +20,13 @@ else:
 
 
 def main():
+
     # Fidelidade Quântica
 
     R = np.array([1, 2, 3, 4])  # Vetor médio de quadratura para o estado 0, sempre positivo
     alpha = 1 - 2.0j  # Representacao de um numero complexo.
 
     # Definição dos estados:
-
     estado_0 = qgt.gaussian_state(R, sigma_cov)  # Estado Gaussiano Multimodo
     estado_1 = qgt.coherent(alpha)
 
