@@ -34,6 +34,22 @@ ___
 ### 🔵 Fidelidade Quântica
 ___
 
+O código inicial tem como objetivo calcular a fidelidade quântica entre um par de estados gaussianos de dois modos. Para tal, é necessário a criação de um estado gaussiano de dois modos, o qual é descrito por um vetor médio de quadratura e uma matriz de covariância. A fidelidade quântica, por sua vez, é um conceito fundamental na mecânica quântica, empregada para avaliar a similaridade entre estados quânticos. Em termos simples, ela quantifica a probabilidade dos dois estados analisados serem os mesmos. Dada essas informações, o algortimo foi estruturado da seguinte maneira:
+
+* *Criação de um estado gaussiano de dois modos arbitrários*: É obtida por meio da inicialização de covariância utilizando os arrays da bibilioteca numpy;
+ 
+ * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada por **σ + iΩ ≥ 0**.
+
+<pre>
+<code>def check_condition(matrix):
+    matrix_real = matrix.real
+    eigenvalues = np.linalg.eigvals(matrix_real)
+    return all(eig >= 0 for eig in eigenvalues)
+
+    sigma = np.random.rand(4, 4) # Matriz de covariancia
+    sigma_cov = 10 * sigma </code>
+</pre>
+
 
 #### ⚪ Citações
 
