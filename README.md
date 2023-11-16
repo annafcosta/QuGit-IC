@@ -38,7 +38,7 @@ O código inicial tem como objetivo calcular a fidelidade quântica entre um par
 
 * *Criação de um estado gaussiano de dois modos arbitrários*: É obtida por meio da inicialização de covariância utilizando os arrays da bibilioteca numpy;
  
- * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada por **σ + iΩ ≥ 0**.
+ * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada por "**σ + iΩ ≥ 0**".
 
 <pre>
 <code>def check_condition(matrix):
