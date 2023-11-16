@@ -40,16 +40,15 @@ O código inicial tem como objetivo calcular a fidelidade quântica entre um par
  
  * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada por "**σ + iΩ ≥ 0**".
 
-<pre>
-<code>def check_condition(matrix):
+```python
+ def check_condition(matrix):
     matrix_real = matrix.real
     eigenvalues = np.linalg.eigvals(matrix_real)
     return all(eig >= 0 for eig in eigenvalues)
 
     sigma = np.random.rand(4, 4) # Matriz de covariancia
-    sigma_cov = 10 * sigma </code>
-</pre>
-
+    sigma_cov = 10 * sigma 
+```
 
 #### ⚪ Citações
 
