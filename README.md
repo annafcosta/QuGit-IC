@@ -34,9 +34,9 @@ ___
 ### 🔵 Fidelidade Quântica
 ___
 
-O código inicial tem como objetivo calcular a fidelidade quântica entre um par de estados gaussianos de dois modos. Para tal, é necessário a criação de um estado gaussiano de dois modos, o qual é descrito por um vetor médio de quadratura e uma matriz de covariância. A fidelidade quântica, por sua vez, é um conceito fundamental na mecânica quântica, empregada para avaliar a similaridade entre estados quânticos. Em termos simples, ela quantifica a probabilidade dos dois estados analisados serem os mesmos. Dada essas informações, o algortimo foi estruturado da seguinte maneira:
+A fidelidade quântica, é um conceito fundamental na mecânica quântica, empregada para avaliar a similaridade entre estados quânticos. Em termos simples, ela quantifica a probabilidade dos dois estados analisados serem os mesmos. Levando em consideração esses fatores, o *código inicial* tem como objetivo calcular a fidelidade quântica entre um par de estados gaussianos de dois modos. Para tal, é necessário criar um estado gaussiano de dois modos, o qual pode ser descrito por um vetor médio de quadratura e uma matriz de covariância. Dada essas informações, o algortimo foi estruturado da seguinte maneira:
 
-* *Criação de um estado gaussiano de dois modos arbitrários*: É obtida por meio da inicialização de covariância utilizando os arrays da bibilioteca numpy;
+* *Criação de um estado gaussiano de dois modos arbitrários*: É obtida por meio da inicialização de uma matriz de covariância, utilizando os arrays da bibilioteca numpy;
  
  * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada pela expressão $σ + iΩ ≥ 0$.
 
