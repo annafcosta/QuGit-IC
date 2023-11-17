@@ -50,6 +50,16 @@ A fidelidade quântica, é um conceito fundamental na mecânica quântica, empre
     sigma_cov = 10 * sigma 
 ```
 
+* *Inicializar um estado gaussiano*: Por meio de uma função integrada e o parâmetro associado ao estado, é possível inicializar um estado gaussiano. Para tal, define-se um número complexo $(alpha)$ e o estado coerente, o qual é inicializado com uma amplitudente complexa correspondente, definida por **qgt.coherent(alpha)** da biblioteca QuGit.
+
+```python
+ alpha = 1 - 2.0j  # Representacao de um numero complexo.
+
+    # Definição dos estados:
+    estado_0 = qgt.gaussian_state(R, sigma_cov)  # Estado Gaussiano Multimodo
+    estado_1 = qgt.coherent(alpha)
+```
+
 #### ⚪ Citações
 
 Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
