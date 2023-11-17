@@ -60,6 +60,8 @@ A fidelidade quântica, é um conceito fundamental na mecânica quântica, empre
     estado_1 = qgt.coherent(alpha)
 ```
 
+* *Produto tensorial*: Por fim, calcula-se o produto tensorial do estado coerente iniciado, utilizando a função **qgt.tensor** product da biblioteca QuGIT.
+
 #### ⚪ Citações
 
 Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
