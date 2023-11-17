@@ -11,19 +11,25 @@ ___
 <!-- Seu conteúdo para a Objetivos -->
 </div>
 
-⚪ [Citações](#autores-3)
+⚪ [Dinâmica de Quadratura de Campo Unitário](#autores-4)
+
+<div id="autores-4">
+<!-- Seu conteúdo para Autores -->
+</div>
+
+🔵 [Citações](#autores-3)
 
 <div id="autores-3">
 <!-- Seu conteúdo para Autores -->
 </div>
 
-🔵 [Colabaradores](#colab-4)
+⚪ [Colabaradores](#colab-4)
 
 <div id="colab-4">
 <!-- Seu conteúdo para Autores -->
 </div>
 
-⚪ [Autor](#autor-5)
+🔵 [Autor](#autor-5)
 
 <div id="autor-5">
 <!-- Seu conteúdo para Autores -->
@@ -62,15 +68,20 @@ A fidelidade quântica, é um conceito fundamental na mecânica quântica, empre
 
 * *Produto tensorial*: Por fim, calcula-se o produto tensorial do estado coerente iniciado, utilizando a função **qgt.tensor** product da biblioteca QuGIT.
 
-#### ⚪ Citações
+___
+
+### ⚪ Dinâmica de Quadratura de Campo Unitário
+___
+
+#### 🔵 Citações
 
 Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
 
-#### 🔵 Colabaradores 
+#### ⚪ Colabaradores 
 
 Leonardo Antônio Mendes de Souza - Orientador. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
 
-#### ⚪ Autor
+#### 🔵 Autor
 
 
 Anna Luísa Ferreira. [[annafcosta]](https://github.com/annafcosta).
