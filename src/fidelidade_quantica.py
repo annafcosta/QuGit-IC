@@ -7,19 +7,17 @@ def check_condition(matrix):
     eigenvalues = np.linalg.eigvals(matrix_real)
     return all(eig >= 0 for eig in eigenvalues)
 
-
-# Aplicação para matrizes aleatórias:
-sigma = np.random.rand(4, 4)  # Matriz de covariancia
-print(sigma)
-sigma_cov = 10 * sigma  # Matriz de covariancia para o estado 0 (apenas parte real)
-
-if check_condition(sigma_cov):
-    print("\nA condição é satisfeita.")
-else:
-    print("\nA condição não é satisfeita.")
-
-
 def main():
+
+    # Aplicação para matrizes aleatórias:
+    sigma = np.random.rand(4, 4) # Matriz gerada
+    print(sigma)
+    sigma_cov = 10 * sigma  # Matriz de covariancia para o estado 0
+
+    if check_condition(sigma_cov):
+        print("\nA condição é satisfeita.")
+    else:
+        print("\nA condição não é satisfeita.")
 
     # Fidelidade Quântica
 
@@ -39,6 +37,6 @@ def main():
 
     F = qgt.fidelity(estado_0, estado_2)
 
-    print(F)
+    print("Fidelidade:", F)
 
 main()
