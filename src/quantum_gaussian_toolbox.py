@@ -1463,7 +1463,8 @@ class gaussian_dynamics:
         
         solution_langevin = solve_ivp(langevin_ode, [t_span[0], t_span[-1]], np.reshape(self.initial_state.R, (self.Size_matrices,)), t_eval=t_span) # Solve Langevin eqaution through Runge Kutta(4,5)
         # Each row in R corresponds to the solution at the value returned in the corresponding row of self.t
-        
+
+
         R_evolved = solution_langevin.y;                                        # Store the time evolved quadratures in a class attribute
         
         return R_evolved, solution_langevin.status
