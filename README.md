@@ -45,7 +45,7 @@ A fidelidade quântica, é um conceito fundamental na mecânica quântica, empre
 
 * *Criação de um estado gaussiano de dois modos arbitrários*: É obtida por meio da inicialização de uma matriz de covariância, utilizando os arrays da bibilioteca numpy;
  
- * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada pela expressão $σ + iΩ ≥ 0$.
+ * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada pela expressão '$σ + iΩ ≥ 0$'.
 
 ```python
  def check_condition(matrix):
