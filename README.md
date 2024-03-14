@@ -81,7 +81,7 @@ This work utilizes the QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/22
 
 #### ⚪ Collaborators
 
-Leonardo Antônio Mendes de Souza - Supervisor. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
+Leonardo Antônio Mendes de Souza - Supervisor. [[Lattes]](http://lattes.cnpq.br/9817332779478274).
 
 #### 🔵 Author
 
