@@ -1,35 +1,35 @@
-# QuGit-Iniciação-Científica
+# QuGit-Scientific-Initiation
 
-O projeto em questão surgiu como uma iniciativa para explorar a interseção entre a computação e a mecânica quântica, sob a coordenação do professor Leonardo Antônio Mendes de Souza. Os estudos nesse domínio visam o desenvolvimento de algoritmos voltados principalmente para a simulação de uma classe especial de *estados quânticos gaussianos de variáveis contínuas*. Para alcançar esse objetivo, estamos utilizando a biblioteca **Quantum Gaussian Information Toolbox**, ou QuGIT, uma caixa de ferramentas numérica em Python dedicada a aplicações de informação quântica gaussiana.
+The project in question emerged as an initiative to explore the intersection between computing and quantum mechanics, under the coordination of Professor Leonardo Antônio Mendes de Souza. Studies in this domain aim at developing algorithms primarily for the simulation of a special class of continuous-variable Gaussian quantum states. To achieve this goal, we are utilizing the **Quantum Gaussian Information Toolbox**, or QuGIT, a Python numerical toolkit dedicated to Gaussian quantum information applications.
 ___
 
-**TAREFAS EM DESENVOLVIMENTO**
+**TASKS IN PROGRESS**
 
-🔵 [Fidelidade Quântica](#Objetivos-1)
+🔵 [Quantum fidelity](#Objetivos-1)
 
 <div id="Objetivos-1">
 <!-- Seu conteúdo para a Objetivos -->
 </div>
 
-⚪ [Dinâmica de Quadratura de Campo Unitário](#autores-4)
+⚪ [Unitary Field Quadrature Dynamics](#autores-4) 
 
 <div id="autores-4">
 <!-- Seu conteúdo para Autores -->
 </div>
 
-🔵 [Citações](#autores-3)
+🔵 [Citations](#autores-3)
 
 <div id="autores-3">
 <!-- Seu conteúdo para Autores -->
 </div>
 
-⚪ [Colabaradores](#colab-4)
+⚪ [Collaborators](#colab-4)
 
 <div id="colab-4">
 <!-- Seu conteúdo para Autores -->
 </div>
 
-🔵 [Autor](#autor-5)
+🔵 [Author](#autor-5)
 
 <div id="autor-5">
 <!-- Seu conteúdo para Autores -->
@@ -37,15 +37,16 @@ ___
 
 ___
 
-### 🔵 Fidelidade Quântica
+### 🔵 Quantum Fidelity
 
 ___
 
-A fidelidade quântica, é um conceito fundamental na mecânica quântica, empregada para avaliar a similaridade entre estados quânticos. Em termos simples, ela quantifica a probabilidade dos dois estados analisados serem os mesmos. Levando em consideração esses fatores, o *código inicial* tem como objetivo calcular a fidelidade quântica entre um par de estados gaussianos de dois modos. Para tal, é necessário criar o estado gaussiano comentado, o qual pode ser descrito por um vetor médio de quadratura e uma matriz de covariância. Dada essas informações, o algortimo foi estruturado da seguinte maneira:
 
-* *Criação de um estado gaussiano de dois modos arbitrários*: É obtida por meio da inicialização de uma matriz de covariância, utilizando os arrays da bibilioteca numpy;
+Quantum fidelity is a fundamental concept in quantum mechanics, employed to assess the similarity between quantum states. Simply put, it quantifies the probability of the two states being the same. Taking these factors into consideration, the *initial code* aims to calculate the quantum fidelity between a pair of Gaussian states of two modes. To do so, it is necessary to create the commented Gaussian state, which can be described by a mean vector of quadratures and a covariance matrix. Given this information, the algorithm is structured as follows::
+
+* *Creation of an arbitrary two-mode Gaussian states*: This is achieved by initializing a covariance matrix using arrays from the numpy library;
  
- * *Verificação da matriz resultante*: É necessário verificar se a matriz gerada é não negativa definida, respeitando a limitação dada pela expressão $σ + iΩ ≥ 0$.
+ * *Verification of the resulting matrix*: It is necessary to check if the generated matrix is non-negative definite, respecting the limitation given by the expression $σ + iΩ ≥ 0$.
 
 ```python
  def check_condition(matrix):
@@ -57,7 +58,7 @@ A fidelidade quântica, é um conceito fundamental na mecânica quântica, empre
     sigma_cov = 10 * sigma 
 ```
 
-* *Inicializar um estado gaussiano*: Por meio de uma função integrada e o parâmetro associado ao estado, é possível inicializar um estado gaussiano. Para tal, define-se um número complexo $(alpha)$ e o estado coerente, o qual é inicializado com uma amplitudente complexa correspondente, definida por **qgt.coherent(alpha)** da biblioteca QuGit.
+* *Initializing a Gaussian state*: Through an integrated function and the parameter associated with the state, it is possible to initialize a Gaussian state. To do so, a complex number $(\alpha)$ is defined along with the coherent state, which is initialized with a corresponding complex amplitude defined by qgt.coherent(alpha) from the QuGit library.
 
 ```python
  alpha = 1 - 2.0j  # Representacao de um numero complexo.
@@ -67,22 +68,22 @@ A fidelidade quântica, é um conceito fundamental na mecânica quântica, empre
     estado_1 = qgt.coherent(alpha)
 ```
 
-* *Produto tensorial*: Por fim, calcula-se o produto tensorial do estado coerente iniciado, utilizando a função **qgt.tensor** product da biblioteca QuGIT.
+* *Tensor product*: Finally, the tensor product of the initialized coherent state is calculated using the **qgt.tensor** product function from the QuGIT library.
 
 ___
 
-### ⚪ Dinâmica de Quadratura de Campo Unitário
+### ⚪ Unitary Field Quadrature Dynamics
 ___
 
-#### 🔵 Citações
+#### 🔵 Citations
 
-Este trabalho faz uso de QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
+This work utilizes the QuGIT toolbox. [[QuGIT Toolbox]](https://arxiv.org/abs/2201.06368).
 
-#### ⚪ Colabaradores 
+#### ⚪ Collaborators
 
-Leonardo Antônio Mendes de Souza - Orientador. [[Perfil-Lattes]](http://lattes.cnpq.br/9817332779478274).
+Leonardo Antônio Mendes de Souza - Supervisor. [[Lattes]](http://lattes.cnpq.br/9817332779478274).
 
-#### 🔵 Autor
+#### 🔵 Author
 
 
 Anna Luísa Ferreira. [[annafcosta]](https://github.com/annafcosta).
