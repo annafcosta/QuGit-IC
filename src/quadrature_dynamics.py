@@ -43,10 +43,10 @@ for i in range(len(t)):
     mean_x_1[i] = states_1[i].R[0]
     var_x_1[i] = states_1[i].V[0, 0]
 
-print("Mean Coherent:", mean_x_0)
-print("Var Coherent:", var_x_0)
-print("Mean Squeezed:", mean_x_1)
-print("Var Squeezed:", var_x_1)
+print("\nMean Coherent:", mean_x_0)
+print("\nVar Coherent:", var_x_0)
+print("\nMean Squeezed:", mean_x_1)
+print("\nVar Squeezed:", var_x_1)
 
 # PLOTAR GRÁFICO:
 plt.figure(figsize=(6, 8))

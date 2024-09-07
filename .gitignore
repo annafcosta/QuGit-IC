@@ -1,2 +1,4 @@
 .idea
+*.exe
+*.o
 __pycache__
